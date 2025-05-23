@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text To Speech</title>
+    <link href="assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">        
+        <h3 onclick="menu()"><i class="fa fa-arrow-left"></i> </h3>    
+        <header>Text to speeech </header>
+         <form action="">
+            
+           <div class="row">
+            
+            <label for="">Enter Text</label>
+            <textarea name="textarea" id="" cols="30" rows="10" class="form-control"></textarea>
+           </div>
+
+           <div class="row"  >
+            <label for="" >Select Voice </label>
+            <div class="outer" class="form-control">
+                <select   class="form-control">
+                    <!-- <option value="">Google US Female English </option> -->
+                </select>
+            </div>
+           </div>
+           <button id="button" name="button">Convert to speech</button>
+           
+         </form>
+    </div>
+
+    
+</body>
+<script src="script.js">
+    function menu(){
+        window.location = "home.php";
+    }
+    
+    
+</script>
+</html>
